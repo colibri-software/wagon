@@ -35,7 +35,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'httmultiparty',         '0.3.10'
   gem.add_dependency 'will_paginate',         '~> 3.0.3'
-  gem.add_dependency 'locomotivecms_mounter', '~> 1.4.0'
+  gem.add_dependency 'locomotivecms_mounter', '1.3.2.cs'
 
   gem.add_dependency 'faker',                 '~> 0.9.5'
 
