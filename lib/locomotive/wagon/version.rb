@@ -1,5 +1,5 @@
 module Locomotive
   module Wagon
-    VERSION = '1.3.3.cs'
+    VERSION = '1.4.0.cs'
   end
 end
