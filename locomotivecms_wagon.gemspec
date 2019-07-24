@@ -39,6 +39,10 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'faker',                 '~> 0.9.5'
 
+  # added to avoid dependency conflict
+  gem.add_dependency 'celluloid',             '~> 0.15.0'
+  gem.add_dependency 'rb-inotify',            '~> 0.9.0'
+
   gem.add_development_dependency 'rake',      '~> 10.0.4'
   gem.add_development_dependency 'rspec',     '~> 2.6.0'
   gem.add_development_dependency 'vcr'
